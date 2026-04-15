@@ -1,0 +1,38 @@
+.cooperation{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 ;
+    gap: 20px;
+}
+.cooperation img{
+    max-height: 300px;
+}
+.cooperation__content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cooperation__content-title{
+    color: #101C41;
+    font-weight: bold;
+    font-size: 26px;
+}
+.cooperation__content-subtitle{
+    color: #101C41;
+    max-width: 400px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.cooperation__content-button{
+    transition: all 0.3s ease-in-out;
+    padding: 15px;
+    border: 0px solid rgb(63, 118, 82);
+    background: #101C41;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+.cooperation__content-button:hover{
+    transform: scale(1.03) ;
+}

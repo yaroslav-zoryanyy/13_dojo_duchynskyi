@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "./styles/reset.css";
+@import "styles/base/HeaderStyles.css";
+@import "styles/home/BannerStyles.css";
+@import "styles/home/AddressStyles.css";
+@import "styles/home/NewsStyles.css";
+@import "styles/home/TrainerStyles.css";
+@import "styles/home/FormStyles.css";
+@import "styles/team/TeamStyles.css";
+@import "styles/cooperation/CooperationStyles.css";
+@import "styles/events/EventStyles.css";
+@import "styles/price/PriceStyles.css";
+@import "styles/schedule/ScheduleStyles.css";
+
+body,html{
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  background-color: white;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main{
+  flex: 1 ;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+#footer{
+  padding: 10px;
+  background-color: #13182a;
+}
+.footer__wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.accent__line{
+  width: 100%;
+  height: 3px;
+  background-color: #616161;
+}
+
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+}

@@ -1,0 +1,48 @@
+.trainer{
+    background-image: url('../../assets/images/trainer__bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 650px;
+}
+.trainer__wrapper{
+    padding: 20px;
+}
+.trainer__title{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.trainer__content{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.trainer__content-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.trainer__subtext{
+    font-size: 16px;
+    max-width: 400px;
+}
+.trainer__button{
+    transition: all 0.3s ease-in-out;
+    padding: 17px;
+    border: 0px solid rgb(63, 118, 82);
+    background: #101C41;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+.trainer__button:hover{
+    background-color: white;
+    color: #101C41;
+}
+.trainer__content-right img{
+    max-width: 600px;
+    max-height: 300px;
+}
