@@ -17,13 +17,10 @@ const Header = () => {
                         <NavLink className={"menu__list-item-link"} to={'/'}>Головна</NavLink>
                     </li>
                     <li className="menu__list-item">
-                        <NavLink className={"menu__list-item-link"} to={'/schedule'}>Графік</NavLink>
+                        <NavLink className={"menu__list-item-link"} to={'/schedule_and_price'}>Графік та Ціни</NavLink>
                     </li>
                     <li className="menu__list-item">
                         <NavLink className={"menu__list-item-link"} to={'/team'}>Тренери</NavLink>
-                    </li>
-                    <li className="menu__list-item">
-                        <NavLink className={"menu__list-item-link"} to={'/price'}>Ціни</NavLink>
                     </li>
                     <li className="menu__list-item">
                         <NavLink className={"menu__list-item-link"} to={'/events'}>Події</NavLink>

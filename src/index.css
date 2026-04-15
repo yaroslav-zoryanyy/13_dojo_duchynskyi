@@ -9,8 +9,7 @@
 @import "styles/team/TeamStyles.css";
 @import "styles/cooperation/CooperationStyles.css";
 @import "styles/events/EventStyles.css";
-@import "styles/price/PriceStyles.css";
-@import "styles/schedule/ScheduleStyles.css";
+@import "styles/schedule_and_price/ScheduleAndPriceStyles.css";
 
 body,html{
   width: 100%;
