@@ -6,6 +6,9 @@
 .slider__news{
     padding: 50px 0 ;
 }
+.banner__slider{
+    padding: 0;
+}
 .news__title {
     text-transform: uppercase;
     font-weight: 400;

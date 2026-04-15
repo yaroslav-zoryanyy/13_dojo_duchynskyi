@@ -19,7 +19,7 @@ const HomeBanner = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     return (
-        <section className="slider">
+        <section className="slider banner__slider">
             <Swiper
                 modules={[A11y, Autoplay, EffectFade]}
                 spaceBetween={0}
